@@ -138,7 +138,7 @@ The following products control IM through software
 #define IM1 48
 #endif
 
-#if defined(BOARD_UEDX48480021_MD80ET) || defined(BOARD_UEDX48480021_MD80E)
+#if defined(BOARD_UEDX48480021_MD80ET) || defined(BOARD_UEDX48480021_MD80E) || defined(BOARD_UEDX48480021_MD80E_V2) 
 #define KNOB21
 #endif
 #if defined(BOARD_UEDX24240013_MD50E)
