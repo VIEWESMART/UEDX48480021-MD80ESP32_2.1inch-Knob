@@ -113,7 +113,8 @@
  *
  */
 // #define BOARD_UEDX24240013_MD50E
-#define BOARD_UEDX48480021_MD80E
+// #define BOARD_UEDX48480021_MD80E  //Use this board if you purchased the MD80E before March 2025.
+#define BOARD_UEDX48480021_MD80E_V2
 // #define BOARD_UEDX48480021_MD80ET
 // #define BOARD_VIEWE_ESP_S3_Touch_LCD_24  
 // #define BOARD_VIEWE_ESP_S3_Touch_LCD_28 
@@ -137,7 +138,7 @@ The following products control IM through software
 #define IM1 48
 #endif
 
-#if defined(BOARD_UEDX48480021_MD80ET) || defined(BOARD_UEDX48480021_MD80E)
+#if defined(BOARD_UEDX48480021_MD80ET) || defined(BOARD_UEDX48480021_MD80E) || defined(BOARD_UEDX48480021_MD80E_V2) 
 #define KNOB21
 #endif
 #if defined(BOARD_UEDX24240013_MD50E)
